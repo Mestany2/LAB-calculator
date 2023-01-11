@@ -1,0 +1,42 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    background-color: aqua;
+}
+.result{
+    background-color: black;
+    color: aliceblue;
+    text-align: right;
+    width: 100%;
+    height: 50px;
+    padding-right: .3em;
+    font-size: 50px;
+}
+.function{
+    background-color:#df974c;
+    font-size: 60px;
+}
+button{
+    font-size: 1.25em;
+    flex-basis: 25%;
+        
+}
+.clear{
+    flex-basis: 50%;
+}
+.zero{
+    flex-basis: 75%;
+}
+button:hover{
+    background-color:#ebebeb;
+}
+button:active{
+    background-color:#bbbcbe;
+}
+function:hover{
+    background-color:#dfb07e;
+}
+function:active{
+    background-color: #dd8d37;
+}
